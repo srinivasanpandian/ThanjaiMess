@@ -35,9 +35,9 @@
       </div>
       <nav class="navbar">
         <ul class="nav-menu">
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
           <li><a href="index.html#about">About us</a></li>
-          <li><a href="menu.html">Menu</a></li>
           <div class="dropdown">
             <a
               class="dropdown-toggle"
@@ -85,6 +85,55 @@
 
     <!-- ! Menu Start -->
     <div class="menu-wrapper">
+      <!-- Filter buttons section -->
+      <div class="filter-section">
+        <!-- Desktop filter buttons -->
+        <div class="filter-buttons d-none d-lg-block text-center">
+          <button class="filter-btn active" data-category="all">All</button>
+          <button class="filter-btn" data-category="Soups">Soups</button>
+          <button class="filter-btn" data-category="Veg Appetizer">Veg Appetizer</button>
+          <button class="filter-btn" data-category="Non Veg Appetizer">Non Veg Appetizer</button>
+          <button class="filter-btn" data-category="Egg Appetizer">Egg Appetizer</button>
+          <button class="filter-btn" data-category="Briyani">Briyani</button>
+          <button class="filter-btn" data-category="Veg Curries">Veg Curries</button>
+          <button class="filter-btn" data-category="Non Veg Curries">Non Veg Curries</button>
+          <button class="filter-btn" data-category="South Indian Specials">South Indian Specials</button>
+          <button class="filter-btn" data-category="Thanjai Specials">Thanjai Specials</button>
+          <button class="filter-btn" data-category="Chinese">Chinese</button>
+          <button class="filter-btn" data-category="Tandoor">Tandoor</button>
+          <button class="filter-btn" data-category="Breads & Parottas">Breads & Parottas</button>
+          <button class="filter-btn" data-category="Dosai Corner">Dosai Corner</button>
+          <button class="filter-btn" data-category="Desserts">Desserts</button>
+          <button class="filter-btn" data-category="Beverages">Beverages</button>
+        </div>
+
+        <!-- Mobile filter dropdown -->
+        <div class="filter-dropdown d-lg-none">
+          <button class="filter-dropdown-btn">
+            <span>All Categories</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="filter-dropdown-content">
+            <div class="filter-dropdown-item active" data-category="all">All</div>
+            <div class="filter-dropdown-item" data-category="Soups">Soups</div>
+            <div class="filter-dropdown-item" data-category="Veg Appetizer">Veg Appetizer</div>
+            <div class="filter-dropdown-item" data-category="Non Veg Appetizer">Non Veg Appetizer</div>
+            <div class="filter-dropdown-item" data-category="Egg Appetizer">Egg Appetizer</div>
+            <div class="filter-dropdown-item" data-category="Briyani">Briyani</div>
+            <div class="filter-dropdown-item" data-category="Veg Curries">Veg Curries</div>
+            <div class="filter-dropdown-item" data-category="Non Veg Curries">Non Veg Curries</div>
+            <div class="filter-dropdown-item" data-category="South Indian Specials">South Indian Specials</div>
+            <div class="filter-dropdown-item" data-category="Thanjai Specials">Thanjai Specials</div>
+            <div class="filter-dropdown-item" data-category="Chinese">Chinese</div>
+            <div class="filter-dropdown-item" data-category="Tandoor">Tandoor</div>
+            <div class="filter-dropdown-item" data-category="Breads & Parottas">Breads & Parottas</div>
+            <div class="filter-dropdown-item" data-category="Dosai Corner">Dosai Corner</div>
+            <div class="filter-dropdown-item" data-category="Desserts">Desserts</div>
+            <div class="filter-dropdown-item" data-category="Beverages">Beverages</div>
+          </div>
+        </div>
+      </div>
+
       <div class="container">
         <div class="menu-container" id="menu-container">
           <!-- Dynamic Menu enter's here -->
